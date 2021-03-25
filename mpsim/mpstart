@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd ${HOME}/mpsim
+nohup ./mpsim.py > mp.out &

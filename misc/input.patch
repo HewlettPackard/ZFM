@@ -1,0 +1,12 @@
+{
+    "RawEntryHex": "0x34EF1245ffffffff",
+    "RouteSet": [
+        {
+            "Valid": false,
+            "VCAction": 99,
+            "HopCount": 100,
+            "EgressIdentifier": 5
+        }
+    ],
+    "MinimumHopCount": 1
+}

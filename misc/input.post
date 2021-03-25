@@ -1,0 +1,59 @@
+{
+    "@odata.id": "/redfish/v1/Fabrics/GenZ/Switches/1/Ports/1/LPRT/8",
+    "@odata.type": "#RouteEntry.v1_1_0.RouteEntry",
+    "Id": "8",
+    "Name": "LPRT1",
+    "Description": "GenZ Port 1 LPRT Entry 8",
+    "RawEntryHex": "0x34EF124500000000",
+    "RouteSet": [
+        {
+            "Valid": false,
+            "VCAction": 9,
+            "HopCount": 0,
+            "EgressIdentifier": 0
+        },
+        {
+            "Valid": false,
+            "VCAction": 8,
+            "HopCount": 1,
+            "EgressIdentifier": 0
+        },
+        {
+            "Valid": false,
+            "VCAction": 7,
+            "HopCount": 2,
+            "EgressIdentifier": 0
+        },
+        {
+            "Valid": false,
+            "VCAction": 6,
+            "HopCount": 3,
+            "EgressIdentifier": 0
+        },
+        {
+            "Valid": false,
+            "VCAction": 5,
+            "HopCount": 4,
+            "EgressIdentifier": 0
+        },
+        {
+            "Valid": false,
+            "VCAction": 4,
+            "HopCount": 5,
+            "EgressIdentifier": 0
+        },
+        {
+            "Valid": false,
+            "VCAction": 3,
+            "HopCount": 6,
+            "EgressIdentifier": 0
+        },
+        {
+            "Valid": false,
+            "VCAction": 7,
+            "HopCount": 8,
+            "EgressIdentifier": 0
+        }
+    ],
+    "MinimumHopCount": 1
+}

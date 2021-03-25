@@ -1,0 +1,142 @@
+
+#
+# (C) Copyright 2020 Hewlett Packard Enterprise Development LP.
+# Licensed under the Apache v2.0 license.
+#
+
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+
+#
+# Test infrastructure for Gen-Z
+#
+
+#
+# Base simulator system.
+#
+172.16.31.199     nsim_base
+
+#
+# Switch nodes.
+#
+172.16.31.101     switch11    s11
+172.16.31.102     switch12    s12
+172.16.31.103     switch13    s13
+172.16.31.104     switch14    s14
+172.16.31.105     switch21    s21
+172.16.31.106     switch22    s22
+172.16.31.107     switch23    s23
+172.16.31.108     switch24    s24
+172.16.31.109     switch31    s31
+172.16.31.110     switch32    s32
+172.16.31.111     switch33    s33
+172.16.31.112     switch34    s34
+172.16.31.113     switch41    s41
+172.16.31.114     switch42    s42
+172.16.31.115     switch43    s43
+172.16.31.116     switch44    s44
+
+#
+# Compute nodes.
+#
+172.16.31.1      node1       n01         compute111
+172.16.31.2      node2       n02         compute112
+172.16.31.3      node3       n03         compute113
+172.16.31.4      node4       n04         compute114
+172.16.31.5      node5       n05         compute121
+172.16.31.6      node6       n06         compute122
+172.16.31.7      node7       n07         compute123
+172.16.31.8      node8       n08         compute124
+172.16.31.9      node9       n09         compute131
+172.16.31.10     node10      n10         compute132
+172.16.31.11     node11      n11         compute133
+172.16.31.12     node12      n12         compute134
+172.16.31.13     node13      n13         compute141
+172.16.31.14     node14      n14         compute142
+172.16.31.15     node15      n15         compute143
+172.16.31.16     node16      n16         compute144
+172.16.31.17     node17      n17         compute211
+172.16.31.18     node18      n18         compute212
+172.16.31.19     node19      n19         compute213
+172.16.31.20     node20      n20         compute214
+172.16.31.21     node21      n21         compute221
+172.16.31.22     node22      n22         compute222
+172.16.31.23     node23      n23         compute223
+172.16.31.24     node24      n24         compute224
+172.16.31.25     node25      n25         compute231
+172.16.31.26     node26      n26         compute232
+172.16.31.27     node27      n27         compute233
+172.16.31.28     node28      n28         compute234
+172.16.31.29     node29      n29         compute241
+172.16.31.30     node30      n30         compute242
+172.16.31.31     node31      n31         compute243
+172.16.31.32     node32      n32         compute244
+172.16.31.33     node33      n33         compute311
+172.16.31.34     node34      n34         compute312
+172.16.31.35     node35      n35         compute313
+172.16.31.36     node36      n36         compute314
+172.16.31.37     node37      n37         compute321
+172.16.31.38     node38      n38         compute322
+172.16.31.39     node39      n39         compute323
+172.16.31.40     node40      n40         compute324
+172.16.31.41     node41      n41         compute331
+172.16.31.42     node42      n42         compute332
+172.16.31.43     node43      n43         compute333
+172.16.31.44     node44      n44         compute334
+172.16.31.45     node45      n45         compute341
+172.16.31.46     node46      n46         compute342
+172.16.31.47     node47      n47         compute343
+172.16.31.48     node48      n48         compute344
+172.16.31.49     node49      n49         compute411
+172.16.31.50     node50      n50         compute412
+172.16.31.51     node51      n51         compute413
+172.16.31.52     node52      n52         compute414
+172.16.31.53     node53      n53         compute421
+172.16.31.54     node54      n54         compute422
+172.16.31.55     node55      n55         compute423
+172.16.31.56     node56      n56         compute424
+172.16.31.57     node57      n57         compute431
+172.16.31.58     node58      n58         compute432
+172.16.31.59     node59      n59         compute433
+172.16.31.60     node60      n60         compute434
+172.16.31.61     node61      n61         compute441
+172.16.31.62     node62      n62         compute442
+172.16.31.63     node63      n63         compute443
+172.16.31.64     node64      n64         compute444
+
+#
+# IO nodes.
+#
+172.16.31.121      io1         i1          io21
+172.16.31.122      io2         i2          io24
+172.16.31.123      io3         i3          io41
+172.16.31.124      io4         i4          io44
+
+#
+# Memory nodes.
+#
+172.16.31.131     memory11    m11         memory211
+172.16.31.132     memory12    m12         memory212
+172.16.31.133     memory13    m13         memory213
+172.16.31.134     memory14    m14         memory214
+
+172.16.31.141     memory21    m21         memory241
+172.16.31.142     memory22    m22         memory242
+172.16.31.143     memory23    m23         memory243
+172.16.31.144     memory24    m24         memory244
+
+172.16.31.151     memory31    m31         memory411
+172.16.31.152     memory32    m32         memory412
+172.16.31.153     memory33    m33         memory413
+172.16.31.154     memory34    m34         memory414
+
+172.16.31.161     memory41    m41         memory441
+172.16.31.162     memory42    m42         memory442
+172.16.31.163     memory43    m43         memory443
+172.16.31.164     memory44    m44         memory444
