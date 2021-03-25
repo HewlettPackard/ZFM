@@ -1,4 +1,4 @@
-
+# Gen-Z Fabric Manager emulator
 
 Note that all of the scripts access python3.  Make sure that your system has
 python3 installed.
@@ -8,7 +8,7 @@ REPO is the location of this repository.
 
 Installation instructions:
 
-	cd ${REPO}/open
+	cd ${REPO}
 	python setup.py sdist
 	pip install .
 
